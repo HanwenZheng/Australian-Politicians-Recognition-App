@@ -12,7 +12,7 @@ from random import random
 
 percent2ga = 1
 num2copy = 3  # number 1 - 3
-path = 'D:/Pycharm/projects/alexnet/faces/test/'
+path = 'D:/Pycharm/projects/faces/test/'
 cate = [path + '/' + x for x in os.listdir(path) if os.path.isdir(path + '/' + x)]
 
 
