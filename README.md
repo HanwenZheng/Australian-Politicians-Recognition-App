@@ -13,7 +13,7 @@ In this project, we use thousands of images of Australian politicians to train a
 |[Trained_Models](https://github.com/HanwenZheng/PoliticiansAU_Recognition/tree/master/Trained_Models "Trained_Models")|final version of trained AlexNet / MobileNet model|
 
 ## Supervisor
-> Prof. Richard Sinnott
+- Prof. Richard Sinnott
 ## Team Members
 - Hanwen Zheng -- zhengh7@student.unimelb.edu.au
 - Zhiyuan Chen -- zhengyuanc3@student.unimelb.edu.au
