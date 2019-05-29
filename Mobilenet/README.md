@@ -21,7 +21,7 @@ python [retrain.py](https://github.com/HanwenZheng/PoliticiansAU_Recognition/blo
 --image_dir=`path_to_Dataset` \  
 --how_many_training_steps=`training_steps` \  
 --architecture=`pre_trained_model` (For example, "mobilenet_1.0_224")
-## Convert to .tflite file - Float point 
+## Convert to float point .tflite file
 tflite_convert \  --graph_def_file=`path_to_graph` \  
 --output_file=`path_to_save_graph` \  
 --input_format=TENSORFLOW_GRAPHDEF \  
@@ -32,7 +32,7 @@ tflite_convert \  --graph_def_file=`path_to_graph` \
 --inference_type=FLOAT \  
 --default_ranges_max=`num_class` \  
 --input_data_type=FLOAT
-## Convert to .tflite file - Quantized
+## Convert to quantized .tflite file
 tflite_convert \  --graph_def_file=`path_to_graph` \  
 --output_file=`path_to_save_graph` \  
 --input_format=TENSORFLOW_GRAPHDEF \  
