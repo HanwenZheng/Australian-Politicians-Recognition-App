@@ -1,4 +1,4 @@
-# Alexnet Retraining 
+# Alexnet Retraining - Australian Politicians Recognition
 ## Working Environment
 Codes in this folder assumes you are using the following environment:
 
