@@ -11,7 +11,7 @@ from random import random
 
 percent2rc = 0.5
 num2copy = 3
-path = 'D:/Pycharm/projects/alexnet/faces/test/'
+path = 'D:/Pycharm/projects/faces/test/'
 cate = [path + '/' + x for x in os.listdir(path) if os.path.isdir(path + '/' + x)]
 
 for idx, folder in enumerate(cate):
