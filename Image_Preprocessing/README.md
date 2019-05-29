@@ -1,12 +1,6 @@
 # Image Preprocessing - Australian Politicians Recognition
-## Working Environment
-Codes in this folder assumes you are using the following environment:
-
-- Python 3.7.3
-- Anaconda 3
 ## Dependencies
 Codes in this folder depends on the following libraries:
-
 - numpy 1.16.3
 - opencv  3.4.2
 - scikit-image 0.15.0
