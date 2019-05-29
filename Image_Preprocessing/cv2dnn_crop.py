@@ -10,7 +10,7 @@ import cv2
 from skimage import io
 
 confidencelvl = 0.5
-path = 'D:/Pycharm/projects/alexnet/faces/test/'
+path = 'D:/Pycharm/projects/faces/test/'
 path2p = "deploy.prototxt.txt"
 path2m = "res10_300x300_ssd_iter_140000.caffemodel"
 
