@@ -1,10 +1,10 @@
 # Australian Politicians Recognition App
-## A University of Melbourne project
-In this project, we use thousands of images of Australian politicians to train a face recognition network over pretrained Alexnet / MobileNet models.
 ## Working Environment
 Codes in this project assumes you are using the following environment:
 - Python 3.7.3
 - Anaconda 3
+## A University of Melbourne project
+In this project, we use thousands of images of Australian politicians to train a face recognition network over pretrained Alexnet / MobileNet models.
 ## File Structure
 |Folder|Contents|
 |-|-|
