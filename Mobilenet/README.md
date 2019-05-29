@@ -1,18 +1,10 @@
 # MobileNet Retraining - Australian Politicians Recognition
-## Working Environment
-Codes in this folder assumes you are using the following environment:
-
-- Python 3.7.3
-- Anaconda 3
 ## Dependencies
 Codes in this folder depends on the following libraries:
-
 - tensorflow 1.13.1
 - numpy 1.16.3
-
 > Use `conda install` to install missing libraries
 ## Training
-
 python [retrain.py](https://github.com/HanwenZheng/PoliticiansAU_Recognition/blob/master/Mobilenet/retrain.py "retrain.py") \  --bottleneck_dir=`path_to_bottleneck` \  
 --model_dir=`path_to_save_model` \  
 --summaries_dir=`path_to_save_logfile` \  
