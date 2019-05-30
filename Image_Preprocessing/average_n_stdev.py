@@ -1,3 +1,8 @@
+"""
+ AUTHOR  : Hanwen Zheng
+ PURPOSE : Get average and stdev image for a folder of images
+"""
+
 import os
 import numpy
 from PIL import Image
@@ -25,4 +30,3 @@ op2=numpy.array(numpy.round(stdev),dtype=numpy.uint8)
 
 Image.fromarray(op1,mode="RGB").save("average.jpg")
 Image.fromarray(op2,mode="RGB").save("stdev.jpg")
-
