@@ -1,4 +1,3 @@
-
 # AlexNet Retraining - Australian Politicians Recognition
 ## Dependencies
 Codes in this folder depends on the following libraries:
@@ -17,14 +16,14 @@ Codes in this folder depends on the following libraries:
 1. In [testrun.py](https://github.com/HanwenZheng/PoliticiansAU_Recognition/blob/master/Alexnet/testrun.py "testrun.py") , set `image_dir` to your test image folder. Set `checkpoint_path` to your latest .ckpt file.
 2. Run it and observe result.
 ## Freeze Graph
-freeze_graph \
+python freeze_graph.py \
 --input_graph=`path_to_graph` \
 --input_checkpoint=`path_to_ckpt` \
 --input_binary=false \
 --output_graph=`path_to_save_graph` \
 --output_node_names=softmax_tensor
 ## Optimize for Inference
-optimize_for_inference \
+python optimize_for_inference.py \
 --input=`path_to_graph` \
 --output=`path_to_save_graph` \
 --frozen_graph=True \
