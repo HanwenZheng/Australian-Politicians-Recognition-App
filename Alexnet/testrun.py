@@ -1,5 +1,5 @@
 """
- AUTHOR  : Hanwen Zheng
+ AUTHOR  : Hanwen Zheng, Zhiyuan Chen, Wenshuang Cao
  PURPOSE : To test retrained Alexnet
  Modified based on Frederik Kratzert's code
  https://github.com/kratzert/finetune_alexnet_with_tensorflow/
