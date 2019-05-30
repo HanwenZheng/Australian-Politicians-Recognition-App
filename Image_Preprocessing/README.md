@@ -1,3 +1,4 @@
+
 # Image Preprocessing - Australian Politicians Recognition
 ## Dependencies
 Codes in this folder depends on the following libraries:
@@ -10,3 +11,4 @@ Codes in this folder depends on the following libraries:
 - [random_crop.py](https://github.com/HanwenZheng/PoliticiansAU_Recognition/blob/master/Image_Preprocessing/random_crop.py "random_crop.py"): Used to generate random cropped images.
 - [gamma_adjust.py](https://github.com/HanwenZheng/PoliticiansAU_Recognition/blob/master/Image_Preprocessing/gamma_adjust.py "gamma_adjust.py"): Used to generate gamma adjusted images.
 - [image_mirror.py](https://github.com/HanwenZheng/PoliticiansAU_Recognition/blob/master/Image_Preprocessing/image_mirror.py "image_mirror.py"): Used to generate mirrored images.
+- [stdev_mean.py](https://github.com/HanwenZheng/PoliticiansAU_Recognition/blob/master/Image_Preprocessing/stdev_mean.py "stdev_mean.py"): Used to get stdev and mean of images.
