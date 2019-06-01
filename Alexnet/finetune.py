@@ -33,12 +33,12 @@ val_file = 'D:/Pycharm/projects/Alexnet/valpath.txt'
 
 # Learning params
 learning_rate = 0.001
-num_epochs = 10
+num_epochs = 50
 batch_size = 128
 
 # Network params
 dropout_rate = 0.5
-num_classes = 7
+num_classes = 53
 train_layers = ['fc8', 'fc7', 'fc6', 'conv1', 'conv2', 'conv3', 'conv4', 'conv5']
 
 # How often we want to write the tf.summary data to disk
