@@ -1,5 +1,5 @@
 """
- AUTHOR  : Hanwen Zheng, Zhiyuan Chen, Wenshuang Cao
+ AUTHOR  : Hanwen Zheng
  PURPOSE : To retain Alexnet
  Modified based on Frederik Kratzert's code
  https://github.com/kratzert/finetune_alexnet_with_tensorflow/
@@ -16,7 +16,7 @@ from skimage import io
 class ImageDataGenerator:
     def __init__(self, class_list, horizontal_flip=False, shuffle=False, 
                  mean = np.array([104., 117., 124.]), scale_size=(227, 227),
-                 nb_classes = 7):
+                 nb_classes = 53):
         
                 
         # Init params
@@ -95,29 +95,29 @@ class ImageDataGenerator:
             if self.horizontal_flip and np.random.random() < 0.5:
                 img = cv2.flip(img, 1)
 
-            dets = self.detector(img, 1)
-            if len(dets) == 1:
-                for index, face in enumerate(dets):
-                    left = face.left()
-                    top = face.top()
-                    right = face.right()
-                    bottom = face.bottom()
-                    if left < 0:
-                        left = 0
-                    if top < 0:
-                        top = 0
-                    if right > img.shape[1]:
-                        right = img.shape[1]
-                    if bottom > img.shape[0]:
-                        bottom = img.shape[0]
-                    #io.imsave('temp.jpg', img)
-                    img = img[top:bottom, left:right]
-            else:
-                if len(dets) == 0:
-                    print('ZERO face: '+ paths[i])
-                else:
-                    if len(dets) > 1:
-                        print('MUTIPLE faces: ' + paths[i])
+            # dets = self.detector(img, 1)
+            # if len(dets) == 1:
+            #     for index, face in enumerate(dets):
+            #         left = face.left()
+            #         top = face.top()
+            #         right = face.right()
+            #         bottom = face.bottom()
+            #         if left < 0:
+            #             left = 0
+            #         if top < 0:
+            #             top = 0
+            #         if right > img.shape[1]:
+            #             right = img.shape[1]
+            #         if bottom > img.shape[0]:
+            #             bottom = img.shape[0]
+            #         #io.imsave('temp.jpg', img)
+            #         img = img[top:bottom, left:right]
+            # else:
+            #     if len(dets) == 0:
+            #         print('ZERO face: '+ paths[i])
+            #     else:
+            #         if len(dets) > 1:
+            #             print('MUTIPLE faces: ' + paths[i])
 
             #rescale image
             img = cv2.resize(img, (self.scale_size[0], self.scale_size[1]))
