@@ -1,5 +1,5 @@
 """
- AUTHOR  : Hanwen Zheng, Zhiyuan Chen, Wenshuang Cao
+ AUTHOR  : Hanwen Zheng, Wenshuang Cao, Zhiyuan Chen
  PURPOSE : Print training images' path+lable to text files
 """
 
