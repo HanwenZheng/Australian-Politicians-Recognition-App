@@ -1,3 +1,8 @@
+"""
+ AUTHOR  : Hanwen Zheng, Wenshuang Cao, Zhiyuan Chen
+ PURPOSE : Verify model accuracy
+"""
+
 import os
 import cv2
 import numpy as np
