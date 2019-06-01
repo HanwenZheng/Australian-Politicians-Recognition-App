@@ -1,3 +1,4 @@
+
 # AlexNet Retraining - Australian Politicians Recognition
 ## Dependencies
 Codes in this folder depends on the following libraries:
@@ -13,7 +14,8 @@ Codes in this folder depends on the following libraries:
 3. [Optional] Follow the direction to open Tensorboard.
 4. Training should take several minutes to hours depending on your Dataset's size to finish.
 ## Verify
-1. In [testrun.py](https://github.com/HanwenZheng/PoliticiansAU_Recognition/blob/master/Alexnet/testrun.py "testrun.py") , set `image_dir` to your test image folder. Set `checkpoint_path` to your latest .ckpt file.
+1. Run [get_test_class.py](https://github.com/HanwenZheng/PoliticiansAU_Recognition/blob/master/Alexnet/get_test_class.py "get_test_class.py") and get `class_names` .
+1. In [testrun.py](https://github.com/HanwenZheng/PoliticiansAU_Recognition/blob/master/Alexnet/testrun.py "testrun.py") , set `class_names` to the one you just got from last step. Set `image_dir` to your test image folder. Set `checkpoint_path` to your latest .ckpt file. 
 2. Run it and observe result.
 ## Freeze Graph
 python freeze_graph.py \
