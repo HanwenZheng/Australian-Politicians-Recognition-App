@@ -1,3 +1,8 @@
+"""
+ AUTHOR  : Hanwen Zheng, Wenshuang Cao, Zhiyuan Chen
+ PURPOSE : Supports testrun.py
+"""
+
 import os
 
 path = 'D:/Pycharm/projects/All3'
