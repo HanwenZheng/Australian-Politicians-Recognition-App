@@ -1,4 +1,3 @@
-
 import os
 import cv2
 import numpy as np
@@ -9,8 +8,8 @@ from alexnet import AlexNet
 image_dir = 'D:/Pycharm/projects/faces/test/TA'
 checkpoint_path = 'checkpoint/model_epoch40.ckpt'
 
-path2p = "D:/Pycharm/projects/Image_Preprocessing/deploy.prototxt.txt"
-path2m = "D:/Pycharm/projects/Image_Preprocessing/res10_300x300_ssd_iter_140000.caffemodel"
+path2p = "deploy.prototxt.txt"
+path2m = "res10_300x300_ssd_iter_140000.caffemodel"
 confidencelvl = .5
 net = cv2.dnn.readNetFromCaffe(path2p, path2m)
 
@@ -118,3 +117,4 @@ with tf.Session() as sess:
         plt.axis('off')
 
     fig2.show()
+    
