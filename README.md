@@ -1,4 +1,6 @@
 # Australian Politicians Recognition App
+## Demo
+Check out [the demo](https://www.youtube.com/watch?v=YtuQyDYH6mk).
 ## Working Environment
 Codes in this project assumes you are using the following environment:
 - Python 3.7.3
