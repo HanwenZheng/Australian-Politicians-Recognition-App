@@ -1,4 +1,4 @@
-# Australian Politicians Recognition App
+# Australian Politicians Recognition (APR) App
 ## Demo
 Check out [Demo](https://www.youtube.com/watch?v=YtuQyDYH6mk).
 ## Thesis
